@@ -12,9 +12,11 @@ int main() {
     const double tMpg = 23.5; //Town Average Rate.
     const double hwMpg = 28.9; //Highway Average Rate.
 
-    double tDistance = calcDistance(gasTank, tMpg);
+    //Calculate distance possible
+    double tDistance = calcDistance(gasTank, tMpg); 
     double hwDistance = calcDistance(gasTank, hwMpg);
 
+    //Display results
     cout << "With a " << gasTank << "-gallon tank:" << endl;
     cout << "In Town driving " << tMpg << " mpg would give a Distance of " << tDistance << "miles" << endl;
     cout << "On Highway driving " << hwMpg << " mpg would give a Distance of " << hwDistance << "miles" << endl;
