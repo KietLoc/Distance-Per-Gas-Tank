@@ -18,8 +18,8 @@ int main() {
 
     //Display results
     cout << "With a " << gasTank << "-gallon tank:" << endl;
-    cout << "In Town driving " << tMpg << " mpg would give a Distance of " << tDistance << "miles" << endl;
-    cout << "On Highway driving " << hwMpg << " mpg would give a Distance of " << hwDistance << "miles" << endl;
+    cout << "In Town driving " << tMpg << " mpg would give a Distance of " << tDistance << " miles" << endl;
+    cout << "On Highway driving " << hwMpg << " mpg would give a Distance of " << hwDistance << " miles" << endl;
 
     return 0;
 }
